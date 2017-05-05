@@ -354,7 +354,11 @@ background: linear-gradient(to left,#fbee04, #d5b2c3,#02ddfd,#fa6105) ;
     position: absolute;
     left:.2rem;
     top:3.5rem;
-    transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);;
+    -moz-transform: rotate(-10deg);;
+    -ms-transform: rotate(-10deg);;
+    -o-transform: rotate(-10deg);;
+    transform: rotate(-10deg);;
     padding-top:.2rem;
     box-sizing: border-box;
 }
